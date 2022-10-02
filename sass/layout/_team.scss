@@ -1,0 +1,41 @@
+.team {
+    background-color: var(--team-bkg-color);
+
+   &__faces {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;
+        text-align: center;
+        color: var(--article-color);
+
+        margin-bottom: 10px;
+    }
+    &__job {
+        font-size: 16px;
+        line-height: 1.2;
+        text-align: center;
+        color: var(--main-text-color);
+    
+        margin-bottom: 16px;
+    }
+    &__container {
+        display: flex;
+        gap: 30px;
+    }
+    &__person-card {
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+            flex-basis: calc((100% - 90px) / 4);
+            background-color: var(--some-bkg-color);
+        }
+    
+    &__person {
+            padding: 30px;
+        }
+}
+
+
+
+
+
+
+

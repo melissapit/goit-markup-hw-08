@@ -1,0 +1,26 @@
+
+.logo {
+    color: var(--accent-color);
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.logo__page-header {
+ 
+    margin-right: 94px;
+}
+
+.logo__page-header_part {
+    color: var(--article-color);
+}
+
+.logo__footer {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.logo__footer_part {
+    color: var(--some-text-color);
+}

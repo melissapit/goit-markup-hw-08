@@ -1,0 +1,40 @@
+.network {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.network__list {
+    width: 44px;
+    height: 44px;
+}
+
+.network__item {
+    width: 20px;
+    height: 20px;
+}
+
+
+.network__link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: var(--fill-icon-color);
+    background-color: var(--network-item-bkg);
+    border-radius: 50%;
+    transition: background-color var(--transition), fill var(--transition);
+
+    &:hover,
+        &:focus {
+            background-color: var(--accent-color);
+            fill: var(--some-text-color);
+        }
+}
+
+.network__footer {
+    fill: var(--some-text-color);
+}
+
+

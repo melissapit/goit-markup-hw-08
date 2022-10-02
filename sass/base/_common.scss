@@ -1,0 +1,38 @@
+body {
+    font-size: 14px;
+    background-color: var(--main-bkg-color);
+    color: var(--article-color);
+    font-family: var(--main-font);
+    letter-spacing: 0.03em;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
