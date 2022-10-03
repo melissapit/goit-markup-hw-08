@@ -1,36 +1,161 @@
 
-.our-features__list {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    gap: 30px;
-}
-.our-features__item {
-    width: 270px;
+@media screen and (max-width: 767px) {
+    .hidden {
+        padding: 60px 0 60px 0;
+    }
+
+    .characteristic__point {
+        width: 450px;
+    }
+
+    .our-features-icon {
+        width: 70px;
+        height: 70px;
+    }
+
+    .icon-bg {
+        width: 450px;
+        height: 120px;
+        background: #f5f4fa;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .our-features {
+        background: var(--primary-bg-color);
+    }
+
+    .characteristic {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+        color: var(--secondary-text-color);
+    }
+
+    .point {
+        width: 450px;
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: var(--tertiary-text-color);
+        margin-bottom: 30px;
+    }
+        
 }
 
 
-.our-features__img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 120px;
-    background-color: rgba(245, 244, 250, 1);
-    margin-bottom: 30px;
-}
-.our-features__suptitle {
-    font-size: 14px;
-    font-family: var(--main-font);
-    font-weight: 700;
-    line-height: 1.14;
-    text-transform: uppercase;
-    color: var(--article-color);
+@media screen and (min-width: 768px) {
+    .hidden {
+        padding: 60px 0 60px 0;
+    }
 
-    margin-bottom: 10px;
+    .characteristic__point {
+        width: 354px;
+    }
+
+    .our-features-icon {
+        width: 70px;
+        height: 70px;
+    }
+
+    .icon-bg {
+        width: 354px;
+        height: 120px;
+        background: #f5f4fa;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .our-features {
+        background: var(--primary-bg-color);
+    }
+
+    .our-features__list {
+        display: flex;
+        column-gap: 30px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        & .characteristic {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 1.14;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+
+            color: var(--secondary-text-color);
+        }
+
+        & .point {
+            margin-top: 10px;
+            font-size: 14px;
+            line-height: 1.71;
+            letter-spacing: 0.03em;
+            color: var(--tertiary-text-color);
+            margin-bottom: 30px;
+        }
+    }
 }
 
-.our-features__text {
-    font-weight: 400;
-    line-height: 24px;
-    color: var(--main-text-color);
+@media screen and (min-width: 1200px) {
+    .hidden {
+        padding: 94px 0 94px 0;
+    }
+
+    .characteristic__point {
+        width: 270px;
+    }
+
+    .our-features-icon {
+        width: 70px;
+        height: 70px;
+    }
+
+    .icon-bg {
+        width: 270px;
+        height: 120px;
+        background: #f5f4fa;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .our-features {
+        background: var(--primary-bg-color);
+    }
+
+    .our-features__list {
+        display: flex;
+        column-gap: 30px;
+        justify-content: space-between;
+
+        & .characteristic {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 1.14;
+            text-transform: uppercase;
+            color: var(--secondary-text-color);
+        }
+
+        & .point {
+            margin-top: 10px;
+            font-size: 14px;
+            line-height: 1.71;
+            color: var(--tertiary-text-color);
+        }
+    }
 }

@@ -17,10 +17,14 @@
 }
 
 .logo__footer {
-    display: inline-block;
-    margin-bottom: 20px;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        
+
 }
 
 .logo__footer_part {
     color: var(--some-text-color);
+    
 }

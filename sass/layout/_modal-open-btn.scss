@@ -1,3 +1,4 @@
+
 .hero__modal-open-btn {
     font-family: inherit;
     font-weight: 700;
@@ -19,9 +20,8 @@
     margin-right: auto;
     transition: background-color var(--transition);
 
-   &:hover,
-        &:focus {
-            background-color: var(--modal-open-btn-hover);
-        }
+    &:hover,
+    &:focus {
+        background-color: var(--modal-open-btn-hover);
+    }
 }
-
