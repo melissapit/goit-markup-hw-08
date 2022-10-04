@@ -13,11 +13,13 @@
   transition: opacity var(--transition-timing-function) visibility
     var(--transition-timing-function);
 }
+
 .mobile-menu.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
 }
+
 .mobile-menu__container {
   display: flex;
   flex-direction: column;
