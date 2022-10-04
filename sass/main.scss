@@ -1,23 +1,27 @@
 @import "./utils/variables";
-@import "./utils/visually-hidden";
+@import "./utils/visually-hidden.scss";
 
 @import "./base/common";
 @import "./base/container";
-@import "./base/section";
 
-@import "./components/logo";
-@import "./components/titles";
-@import "./components/networks";
+@import "./components/mobile-menu";
+@import "./components/modal-btn";
+@import "./components/social-list";
+@import "./components/logotip";
+@import "./components/nav-menu";
+@import "./components/_header";
+@import "./components/header-contacts";
+@import "./components/hero";
+@import "./components/portfolio-button";
+@import "./components/footer";
+@import "./components/footer-contacts";
+@import "./components/footer-subscription-form";
+@import "./components/backdrop";
+@import "./components/modal-window";
+@import "./components/modal-form";
 
-@import "./layout/header";
-@import "./layout/mobile-menu";
-@import "./layout/hero";
-@import "./layout/modal-open-btn";
-@import "./layout/our-features";
+@import "./layout/visualy";
+@import "./layout/resume";
 @import "./layout/team";
-@import "./layout/examples";
-@import "./layout/clients";
-@import "./layout/footer";
-@import "./layout/button-subscribe";
-@import "./layout/portfolio";
-@import "./layout/backdrop";
+@import "./layout/regular-customers";
+@import "./layout/portfolio-cards";

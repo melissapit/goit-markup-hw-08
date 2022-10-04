@@ -1,0 +1,23 @@
+//   PAGE-PORTFOLIO
+.contact-logo-mail {
+  width: 16px;
+  height: 12px;
+  padding: auto;
+}
+.potfolio-contacts {
+  display: flex;
+  column-gap: 30px;
+  justify-content: flex-end;
+  & .mail-tel-contact {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--tertiary-text-color);
+    transition: color var(--transition-timing-function);
+    &:hover,
+    &:focus {
+      color: var(--accent-color);
+    }
+  }
+}
